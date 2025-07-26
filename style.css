@@ -84,7 +84,18 @@ margin-bottom: 1rem;
 
 button.dark{
     font-size: 1rem;
-    background-color: #91C8E4;
+     background-color: #113F67;
+     border: none ;
+     color: white;
+    padding: 0.6rem 1.2rem;
+    margin-right: 1rem;
+}
+button.light{
+    font-size: 1rem;
+    font-size: 1rem;
+    background-color: white;
+    color: #113F67;
+    border-color: #113F67;
     padding: 0.6rem 1.2rem;
     margin-right: 1rem;
 }
@@ -105,6 +116,7 @@ display: flex;
 .profile-image{
     width: 70%;
     height: auto;
+    border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     object-fit: cover;
 }
@@ -129,10 +141,10 @@ border: 1px solid #ccc;
 }
 
 button[type="submit"] {
-  background-color: #91C8E4; 
-  color: black;
+  background-color: white; 
+  color: #113F67;
   padding: 0.7rem 1.5rem;
-  border: none;
+  border-color: #113F67;
   border-radius: 5px;
   cursor: pointer;
   font-size: 1rem;
